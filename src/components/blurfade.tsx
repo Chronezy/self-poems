@@ -23,7 +23,9 @@ export function BlurFadeTextDemo() {
           останется шрам на душе.
         </span>
         <div className="w-full flex items-center justify-center relative pt-4 gap-4">
-          <ShinyButtonDemo />
+          <a href="#poems">
+            <ShinyButtonDemo />
+          </a>
           <AlertDialogDemo />
         </div>
       </BlurFade>
