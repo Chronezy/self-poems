@@ -1,11 +1,5 @@
-import Image from "next/image";
+import { WavyBackgroundDemo } from "@/components/Hero";
 
 export default function Home() {
-  return (
-    <main className="flex w-full h-screen justify-center items-center">
-      <div>
-        <h1>This is my git</h1>
-      </div>
-    </main>
-  );
+  return <WavyBackgroundDemo />;
 }
