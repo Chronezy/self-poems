@@ -1,6 +1,7 @@
 import { BlurFade } from "@/components/ui/blur-fade";
 import { ShinyButtonDemo } from "./ShnBtn";
 import { AlertDialogDemo } from "./dialog";
+import MobileNav from "./navmobile";
 
 export function BlurFadeTextDemo() {
   return (
@@ -9,7 +10,7 @@ export function BlurFadeTextDemo() {
       className="flex flex-col w-full items-center -top-24 md:-top-0 relative text-white"
     >
       <BlurFade delay={0.25} inView>
-        <h2 className="text-3xl font-bold tracking-wide sm:text-5xl xl:text-6xl/none">
+        <h2 className="text-3xl font-bold tracking-wide sm:text-5xl xl:text-5xl/none">
           Что это такое?
         </h2>
       </BlurFade>
@@ -18,7 +19,7 @@ export function BlurFadeTextDemo() {
         inView
         className="text-center md:w-[40%] top-4 relative flex flex-col"
       >
-        <span className="text-pretty text-2xl">
+        <span className="text-pretty text-2xl md:px-0 px-4">
           Это ментальный ожог. Это будет больнее, чем когда-либо и у тебя
           останется шрам на душе.
         </span>

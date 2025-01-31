@@ -5,10 +5,12 @@ import { BlurFadeTextDemo } from "./blurfade";
 
 export function WavyBackgroundDemo() {
   return (
-    <WavyBackground className="w-full h-screen flex justify-center items-center">
-      <div>
-        <BlurFadeTextDemo />
-      </div>
-    </WavyBackground>
+    <div id="main">
+      <WavyBackground>
+        <div>
+          <BlurFadeTextDemo />
+        </div>
+      </WavyBackground>
+    </div>
   );
 }
